@@ -160,7 +160,7 @@ var knives = {
 
   chi: {
     COMP1: {name: "COMP", price: 10000000000.00, img: "https://c8.alamy.com/comp/2F53F1T/vector-clean-red-rubber-stamp-permanent-banned-at-transparent-effect-background-2F53F1T.jpg"}
-  },
+  }
 
 
 // cases
