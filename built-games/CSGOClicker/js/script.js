@@ -6,7 +6,7 @@ var fps = 15;
 
 var money = 7.50;
 var currentCase = "case2";
-var acceptMoneyPerClick = 10.0;
+var acceptMoneyPerClick = 0.1;
 
 
 
@@ -37,6 +37,7 @@ var operationCases = {
   case4: {name: "Operation Vanguard Case", price: 0.16, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFIuh6rJImVGvtjllYaNka6la7rUxWkE65BzibvD9N7z0Q22-0Fka2GlJ5jVLFHqavWW2g"},
   case5: {name: "Chroma Case", price: 0.07, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFEuh_KQJTtEuI63xIXbxqOtauyClTMEsJV1jruS89T3iQKx_BBqa2j3JpjVLFH1xpp0EQ"},
   case6: {name: "Falchion Case", price: 0.03, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FF8ugPDMIWpAuIq1w4KIlaChZOyFwzgJuZNy3-2T89T0jlC2rhZla2vwIJjVLFHz75yKpg"}
+}
 
 var knives = {
   regular: {
@@ -154,8 +155,8 @@ var knives = {
     knife11: {name: "★ Falchion Knife | Slaughter", price: 116.08, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1fLEcjVL49KJlY20jfL2IbrummJW4NFOhujT8om721e2qBZuYmDycITEcAZsaVCF_FC-lebujZbvvsvNmHs27yAi43mOzgv3308URyVBpw"},
     knife12: {name: "★ Falchion Knife | Stained", price: 54.27, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1fLEcjVL49KJlZG0kfjmML7VqWdY781lteXA54vwxge28ktqNz-gJ4-QJwA4YV-E-we-xLi80Zfqv8jPm3owuHMgtn6LmhypwUYb5tWmOP0"},
     knife13: {name: "★ Falchion Knife | Urban Masked", price: 43.33, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1fLEcjVL49KJh5C0g_bkNoTEhGlQ5vp9g-7J4bP5iUazrl0_YGDzINOdcwBsNwvT-gLqwO3v1JHtvZXPzCc1uSdz5n2IyxW0hRtIcKUx0k4sDK_g"}
-  }
-
+  },
+}
 
 // cases
 var cases = {
